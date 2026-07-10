@@ -165,3 +165,16 @@ hr, .notion-divider {
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(180deg, #a78bfa, #c4b5fd);
 }
+/* 让所有正文文字变为更深的颜色，提升对比度 */
+.notion-page-content p,
+.notion-page-content span,
+.notion-page-content h1,
+.notion-page-content h2,
+.notion-page-content h3 {
+    color: #1a1a1a !important; /* 使用更深色的黑色 */
+}
+/* 可选：加深博客卡片里的文字颜色 */
+.blog-post-card .post-title,
+.blog-post-card .post-summary {
+    color: #222 !important;
+}
