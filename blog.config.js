@@ -32,21 +32,21 @@ const BLOG = {
 
   // 其它复杂配置
   // 原配置文件过长，且并非所有人都会用到，故此将配置拆分到/conf/目录下, 按需找到对应文件并修改即可
-  ...require('./conf/comment.config'), // 评论插件
-  ...require('./conf/contact.config'), // 作者联系方式配置
-  ...require('./conf/post.config'), // 文章与列表配置
-  ...require('./conf/analytics.config'), // 站点访问统计
-  ...require('./conf/image.config'), // 网站图片相关配置
-  ...require('./conf/font.config'), // 网站字体
-  ...require('./conf/right-click-menu'), // 自定义右键菜单相关配置
-  ...require('./conf/code.config'), // 网站代码块样式
-  ...require('./conf/animation.config'), // 动效美化效果
-  ...require('./conf/widget.config'), // 悬浮在网页上的挂件，聊天客服、宠物挂件、音乐播放器等
-  ...require('./conf/ad.config'), // 广告营收插件
-  ...require('./conf/plugin.config'), // 其他第三方插件 algolia全文索引
-  ...require('./conf/ai.config'), // AI 相关配置（AI摘要、AI聊天机器人等）
-  ...require('./conf/performance.config'), // 性能优化配置
-  ...require('./conf/top-tag.config'), // 置顶文章全局配置
+  //...require('./conf/comment.config'), // 评论插件
+ // ...require('./conf/contact.config'), // 作者联系方式配置
+ // ...require('./conf/post.config'), // 文章与列表配置
+  //...require('./conf/analytics.config'), // 站点访问统计
+  //...require('./conf/image.config'), // 网站图片相关配置
+ // ...require('./conf/font.config'), // 网站字体
+ // ...require('./conf/right-click-menu'), // 自定义右键菜单相关配置
+ // ...require('./conf/code.config'), // 网站代码块样式
+  //...require('./conf/animation.config'), // 动效美化效果
+//  ...require('./conf/widget.config'), // 悬浮在网页上的挂件，聊天客服、宠物挂件、音乐播放器等
+//  ...require('./conf/ad.config'), // 广告营收插件
+ // ...require('./conf/plugin.config'), // 其他第三方插件 algolia全文索引
+ // ...require('./conf/ai.config'), // AI 相关配置（AI摘要、AI聊天机器人等）
+ // ...require('./conf/performance.config'), // 性能优化配置
+ // ...require('./conf/top-tag.config'), // 置顶文章全局配置
 
   // 高级用法
   ...require('./conf/layout-map.config'), // 路由与布局映射自定义，例如自定义特定路由的页面布局
